@@ -1,0 +1,103 @@
+header {
+    background-color:gray;
+    color: red;
+    display: flex;
+    flex-direction: column
+    
+    
+}
+hgroup{
+  float:left;
+}
+
+header div{
+  margin-left:500px;
+
+}
+hgroup h1{
+  margin-right:  5px;
+  margin-top: 35px;
+}
+    
+    
+
+
+
+
+
+.content{
+    margin-left: 45px ;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width:45%;
+    
+}
+
+
+
+
+.experience-type,.experience-institution{
+    color: red;
+    
+}
+
+.experience-location, .experience-date{
+   padding: 0;
+    color: gray;
+    
+
+}
+
+
+
+
+
+dl {
+  width: 100%;
+  overflow: hidden;
+  
+  padding: 0;
+  margin: 0
+}
+dt {
+  float: left;
+  width: 50%;
+  /* adjust the width; make sure the total of both is 100% */
+  background:red;
+  padding: 0;
+  margin: 0;
+  width:30%
+}
+dd {
+  float: left;
+  width: 50%;
+  /* adjust the width; make sure the total of both is 100% */
+  background: black;
+  padding: 0;
+  margin: 0;
+  width: 70%;
+  
+}
+  dl a{
+    text-decoration: none;
+    color: red;
+  }
+
+
+
+h3{
+  
+ 
+border-bottom: 1px solid gray ;
+
+}
+
+
+h3:before {
+    content:"·";
+    font-size:120px;
+    vertical-align:middle;
+    line-height:30px;
+    color: red;
+}
+

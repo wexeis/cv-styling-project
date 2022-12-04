@@ -1,0 +1,97 @@
+header {
+    background-color:gray;
+    color: red;
+    display:flex;
+    
+    
+}
+    
+    
+    
+
+header h1, h2 {
+    margin-top: 0;
+    margin-left: 30px;
+}
+header h1, h2, img{
+    margin-bottom: 20px;
+}
+
+.content{
+    margin-left: 45px ;
+    
+}
+.content section:first-child{
+    margin-top: 70px;
+}
+
+.content section p{
+    
+    
+    word-wrap: break-word;
+    width: 30%;;
+}
+
+.experience-type,.experience-institution{
+    color: red;
+}
+
+.experience-location, .experience-date{
+   padding: 0;
+    color: gray;
+    
+
+}
+
+
+
+dl {
+    width: 30%;
+    overflow: hidden;
+    
+    padding: 0;
+    margin: 0;
+    
+
+  }
+  dt {
+    float: left;
+    width: 20%;
+   
+    background: red;
+    padding: 0;
+    margin: 0;
+    
+  }
+  dd {
+    float: left;
+    width: 30%;
+    
+   
+    
+    padding: 0;
+    margin: 0;
+    
+  }
+  dd a {
+    text-decoration: none; 
+    margin-left: 5px; 
+  }
+ dl.contact-skype dd{
+    margin-left: 5px;
+    
+  }
+  
+h3{
+border-bottom: 1px solid gray ;
+}
+
+
+h3:before {
+    content:"·";
+    font-size:120px;
+    vertical-align:middle;
+    line-height:20px;
+    color: red;
+}
+
