@@ -210,6 +210,14 @@ padding-right: 25px;
     grid-template-columns: 1fr 1fr;
    }
 
+   dl.contact-github{
+    background-image: ;
+   }
+
+   span.experience-type {
+    color:   #008080
+
+   }
    
 
   @media only screen and (max-width: 600px) {
