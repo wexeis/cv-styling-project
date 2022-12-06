@@ -229,6 +229,8 @@ header h1, h2 {
     margin-left: 0
 }
 
+}
+
 dd {
   background-color: white;
 } 
@@ -249,7 +251,13 @@ top: 630px;
 
 } 
 #contact h3 {
-visibility: visible;
+visibility: hidden;
+}
+.skills-secondary:before{
+  display: none;
+}
+.skills-primary::before{
+  visibility: hidden;
 }
 }
 
