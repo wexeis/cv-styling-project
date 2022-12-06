@@ -1,19 +1,21 @@
 header {
     background-color:gray;
     color: red;
-    display: flex;
-    flex-direction: column
+      display: flex;
+      flex-direction: row;}
     
     
-}
-hgroup{
-  float:left;
-}
+
+
+
+
+
 
 header div{
   margin-left:500px;
 
 }
+
 hgroup h1{
   margin-right:  5px;
   margin-top: 35px;
@@ -109,7 +111,7 @@ right: 10px;
 width: 40%;}
 
 #contact h3 {
-  display: none;
+  visibility: hidden;
 }
 .skill {
 background-color: gray;
@@ -133,7 +135,7 @@ display: block;
   background-color: red;
 display: block;
   padding: 1%;
-  width: 50%;
+  width: 70%;
   height: 100%;
   color: white;
 }
@@ -142,7 +144,7 @@ display: block;
   background-color: red;
 display: block;
   padding: 1%;
-  width: 50%;
+  width: 60%;
   height: 100%;
   color: white;
 }
@@ -169,14 +171,14 @@ display: block;
   background-color: red;
 display: block;
   padding: 1%;
-  width: 50%;
+  width: 60%;
   height: 100%;
   color: white;
 }
 
 .skills-secondary:before{
   content: "Other";
-  top:400px;
+  top:430px;
   position: absolute;
   
   font-size: 20x;
@@ -185,7 +187,7 @@ display: block;
 
 .skills-primary::before{
   content: "Main";
-  top:200Px;
+  top:230Px;
   position: absolute;
   
   font-size: 20x;
@@ -197,167 +199,51 @@ h4 span.experience-type:after{
 }
 
 @media only screen and (max-width: 600px) {
+
   
-  body{
-    width: 70%;
-  }
-  header {
-      background-color:gray;
-      color: red;
-      display:flex;
-      
-      
-  }
-      
-      
-      
+  header div{
+    margin-left:0;
   
+  }
+  hgroup{
+     position: relative; 
+      
+       }
+  .contacts{
+    position:relative;
+    
+  
+  }
+
   header h1, h2 {
       margin-top: 0;
-      margin-left: 30px;
+      margin-left: 0
   }
-  header h1, h2, img{
-      margin-bottom: 20px;
-  }
-  
+ 
+  dd {
+    background-color: white;
+  } 
   .content{
-      margin-left: 45px ;
-      
+    margin-left: 45px ;
+    display:block;
   }
   .content section:first-child{
       margin-top: 70px;
   }
   
-  .content section p{
-      
-      
-      word-wrap: break-word;
-      width: 30%;;
-  }
   
-  .experience-type,.experience-institution{
-      color: red;
-  }
+ 
+.skills-primary:before{
+  top: 480px;}
+.skills-secondary:before{
+  top: 630px;
   
-  .experience-location, .experience-date{
-     padding: 0;
-      color: gray;
-      
-  
-  }
-  
-  
-  
-  dl {
-      width: 30%;
-      overflow: hidden;
-      
-      padding: 0;
-      margin: 0;
-      
-  
-    }
-    dt {
-      float: left;
-      width: 20%;
-     
-      background: red;
-      padding: 0;
-      margin: 0;
-      
-    }
-    dd {
-      float: left;
-      width: 30%;
-      
-     
-      
-      padding: 0;
-      margin: 0;
-      
-    }
-    dd a {
-      text-decoration: none; 
-      margin-left: 5px; 
-    }
-   dl.contact-skype dd{
-      margin-left: 5px;
-      
-    }
-    
-  h3{
-  border-bottom: 1px solid gray ;
-  }
-  
-  
-  h3:before {
-      content:"·";
-      font-size:120px;
-      vertical-align:middle;
-      line-height:20px;
-      color: red;
-  }
-  
-  .skill {
-    background-color: gray;
-    margin-top: 20px;
-    padding: 1%;
-    width: 70%;
-    height: 100%;
-    }
-    
-    .skills-primary [data-skill="5"] span {
-      background-color: red;
-    display: block;
-      padding: 1%;
-      width: 50%;
-      height: 100%;
-      color: white;
-    
-    }
-    
-    .skills-primary [data-skill="3"] span {
-      background-color: red;
-    display: block;
-      padding: 1%;
-      width: 50%;
-      height: 100%;
-      color: white;
-    }
-    
-    .skills-primary [data-skill="1"] span {
-      background-color: red;
-    display: block;
-      padding: 1%;
-      width: 50%;
-      height: 100%;
-      color: white;
-    }
-    
-    .skills-secondary [data-skill="5"] span {
-      background-color: red;
-    display: block;
-      padding: 1%;
-      width: 50%;
-      height: 100%;
-      color: white;
-    }
-    
-    .skills-secondary [data-skill="9"] span {
-      background-color: red;
-    display: block;
-      padding: 1%;
-      width: 50%;
-      height: 100%;
-      color: white;
-    }
-    
-    .skills-secondary [data-skill="7"] span {
-      background-color: red;
-    display: block;
-      padding: 1%;
-      width: 50%;
-      height: 100%;
-      color: white;
-    }
+} 
+#contact h3 {
+  visibility: visible;
 }
+  }
+
+
+  
+
